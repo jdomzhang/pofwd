@@ -24,7 +24,7 @@ Configuring
 Open `pofwd.conf`, each line is a forwarding rule, in the form of
 
 ```
-<form protocol> <from address>  <to protocol> <to_address>
+<from protocol> <from address>  <to protocol> <to_address>
 ```
 
 `Protocol` can be `tcp`, `tcp4`, `tcp6`, `udp`, `udp4`, `udp6`, `unix`, `unixgram`, `unixpacket`.
